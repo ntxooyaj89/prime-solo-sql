@@ -33,4 +33,14 @@ INSERT INTO accounts (username, city, transactions_completed, transactions_attem
 
 DELETE FROM "accounts" WHERE "city" = 'Miami' OR "city" = 'Phoenix' AND "transactions_completed" < 5;
 
+STRETCH GOALS 
 
+-- Anthony moved to Santa Fe.
+
+UPDATE "accounts" SET "city" = 'Santa Fe' WHERE "user_id" = 5;
+
+-- Grace closed her account.
+
+DELETE FROM "accounts" WHERE "user_id" = 9;
+
+-- 
